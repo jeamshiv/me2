@@ -38,7 +38,7 @@ export default class Navbar extends Component {
         return (
             <>
                 <nav class="navbar navbar-expand-lg navbar-light bg-fef0ef sticky-top">
-                <a class="navbar-brand" href="#">Edu Website</a>
+                <NavLink class="navbar-brand" to="/">Edu Website</NavLink>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,13 +46,13 @@ export default class Navbar extends Component {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-4 active">
-                        <NavLink to="/" class="nav-link">Home <span class="sr-only">(current)</span></NavLink>
+                        <NavLink to="/" className={({ isActive }) => (isActive ?'nav-link active':'nav-link')} >Home <span class="sr-only">(current)</span></NavLink>
                     </li>
                     <li class="nav-item mr-4">
-                        <NavLink to="/about" class="nav-link">About</NavLink>
+                        <NavLink to="/about" className={({ isActive }) => (isActive ?'nav-link active':'nav-link')}>About</NavLink>
                     </li>
                     <li class="nav-item mr-4">
-                        <NavLink to="/login" class="nav-link">Login</NavLink>
+                        <NavLink to="/login" className={({ isActive }) => (isActive ?'nav-link active':'nav-link')}>Login</NavLink>
                     </li>
                     
                         
