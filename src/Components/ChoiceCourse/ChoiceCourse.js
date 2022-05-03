@@ -7,7 +7,7 @@ export default class ChoiceCourse extends Component {
         return(
             <>
                 <div class="card">
-                <img class="card-img-top p-3" src="https://images.pexels.com/photos/5965839/pexels-photo-5965839.jpeg?cs=srgb&dl=pexels-charlotte-may-5965839.jpg&fm=jpg" alt="Card image cap" />
+                <img class="card-img-top p-3" src="https://images.pexels.com/photos/5965839/pexels-photo-5965839.jpeg?cs=srgb&dl=pexels-charlotte-may-5965839.jpg&fm=jpg" alt="Card cap" />
                 <div class="card-body">
                     <div className="d-flex justify-content-between mx-2">
                         <div>

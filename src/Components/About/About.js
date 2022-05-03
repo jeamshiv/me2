@@ -62,7 +62,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="px-4">
-                                    <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3769021.jpg&fm=jpg" className="img-fluid rounded" alt="" />
+                                    <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3769021.jpg&fm=jpg" className="img-fluid rounded" alt="user" />
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ export default class About extends Component {
                         </div>
                         <div className="col-lg-7">
                             <div className="text-center">
-                                <img src="/assets/about-banner.png" className="img-fluid" alt="" />
+                                <img src="/assets/about-banner.png" className="img-fluid" alt="banner" />
                             </div>
                         </div>
                     </div>

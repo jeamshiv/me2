@@ -35,7 +35,7 @@ export default class Login extends Component {
     }
 
     CreateButton=()=>{
-        if(this.state.username=="" || this.state.email ==""){
+        if(this.state.username==="" || this.state.email ===""){
             this.setState({isOpenSnack: true, SnackbarMessage: "Ooops! You have missed Username or Email"})
         } else {
             localStorage.setItem('username', this.state.username);
@@ -72,7 +72,7 @@ export default class Login extends Component {
 
                             <div className="col-lg-6 bg-f66962 text-light px-5 pb-4">
                                 <div className="px-lg-5">
-                                    <img src="/assets/login-banner.png" className="img-fluid" alt="login image" />
+                                    <img src="/assets/login-banner.png" className="img-fluid" alt="login banner" />
                                 </div>
                                 <h1 className="text-center">
                                     Behind a Student's Sucess Story

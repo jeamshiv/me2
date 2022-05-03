@@ -14,7 +14,7 @@ export default class Home extends Component {
                 <div className="d-flex justify-content-between">
                     <div className="d-flex">
                         <div className="mr-3">
-                            <img src="https://images.pexels.com/photos/5965839/pexels-photo-5965839.jpeg?cs=srgb&dl=pexels-charlotte-may-5965839.jpg&fm=jpg" style={{width: 60, height: 60}} className="img-fluid rounded-circle" alt="" />
+                            <img src="https://images.pexels.com/photos/5965839/pexels-photo-5965839.jpeg?cs=srgb&dl=pexels-charlotte-may-5965839.jpg&fm=jpg" style={{width: 60, height: 60}} className="img-fluid rounded-circle" alt="review user" />
                         </div>
                         <div>
                             <h5 className="mb-0">Shivam Kumar</h5>
@@ -69,7 +69,7 @@ export default class Home extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <img src="assets/Woman.png" className="img-fluid" alt="" />
+                                <img src="assets/Woman.png" className="img-fluid" alt="woman" />
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default class Home extends Component {
                             <button className="btn button-primary">Start Learning Now</button>
                         </div>
                         <div className="col-lg-6 px-5">
-                                <img src="https://images.pexels.com/photos/1181547/pexels-photo-1181547.jpeg?cs=srgb&dl=pexels-christina-morillo-1181547.jpg&fm=jpg" className="img-fluid" alt="" />
+                                <img src="https://images.pexels.com/photos/1181547/pexels-photo-1181547.jpeg?cs=srgb&dl=pexels-christina-morillo-1181547.jpg&fm=jpg" className="img-fluid" alt="start learning" />
                         </div>
                     </div>
                 </div>
