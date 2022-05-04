@@ -38,7 +38,7 @@ export default class Navbar extends Component {
         return (
             <>
                 <nav class="navbar navbar-expand-lg navbar-light bg-fef0ef sticky-top">
-                <a class="navbar-brand" href="#">Edu Website</a>
+                <NavLink class="navbar-brand" to="#">Edu Website</NavLink>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,12 +65,12 @@ export default class Navbar extends Component {
                     {this.state.isUserLogin ?(
                         <>
                         <div class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle  relative" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <NavLink class="nav-link dropdown-toggle  relative" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {this.state.username}
-                        </a>
+                        </NavLink>
                         <div class="dropdown-menu justify-content-end" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Profile</a>
-                            <a class="dropdown-item" href="#" onClick={()=>this.logoutFunction()}>Log Out</a>
+                            <NavLink class="dropdown-item" href="#">Profile</NavLink>
+                            <NavLink class="dropdown-item" href="#" onClick={()=>this.logoutFunction()}>Log Out</NavLink>
                         </div>
                         </div>
 
