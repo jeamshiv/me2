@@ -51,3 +51,7 @@ a:hover, a:active{text-decoration: none;
 .minHeight-60{
     min-height: 60px;
 }
+
+.cursor-pointer{
+    cursor: pointer;
+  }
