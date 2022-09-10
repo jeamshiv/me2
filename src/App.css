@@ -1,53 +1,61 @@
-
-a, a:link, a:visited,
-a:hover, a:active{text-decoration: none;
-                    color: currentColor;}
-
-
-
-.bg-fef0ef{
-    background-color: #fef0ef;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: currentColor;
 }
 
-.bg-f66962{
-    background-color: #f66962;
+.bg-fef0ef {
+  background-color: #fef0ef;
 }
 
-.bg-282834{
-    background-color: #282834;
+.bg-f66962 {
+  background-color: #f66962;
 }
 
-.bg-efeff7{
-    background-color: #efeff7;
+.bg-282834 {
+  background-color: #282834;
 }
 
-.bg-f6f6fb{
-    background-color: #f6f6fb;
+.bg-efeff7 {
+  background-color: #efeff7;
 }
 
-
-.txt-777578{
-    color:#777578
+.bg-f6f6fb {
+  background-color: #f6f6fb;
 }
 
-.txt-67c97d{
-    color: #67c97d;
+.txt-777578 {
+  color: #777578;
 }
 
-.txt-f68c1f{
-    color: #f68c1f
+.txt-67c97d {
+  color: #67c97d;
 }
 
-.txt-f66962{
-    color:#f66962
+.txt-f68c1f {
+  color: #f68c1f;
 }
 
-
-.button-primary{
-    background-color:#f66962;
-    color: #ffffff;
+.txt-f66962 {
+  color: #f66962;
 }
 
-.minHeight-60{
-    min-height: 60px;
+.button-primary {
+  background-color: #f66962;
+  color: #ffffff;
+}
+
+.minHeight-60 {
+  min-height: 60px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-text-f68c1f:hover {
+  color: #f68c1f;
 }
