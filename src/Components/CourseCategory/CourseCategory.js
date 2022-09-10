@@ -14,7 +14,11 @@ export default class CourseCategory extends Component {
               style={{ width: 50, height: 50, backgroundColor: iconbg }}
             >
               <h4>
+<<<<<<< HEAD
                 <i class={icon} style={{ color: iconColor }}></i>
+=======
+                <i className={icon} style={{ color: iconColor }}></i>
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
               </h4>
             </div>
             <h4>{title}</h4>
@@ -34,11 +38,15 @@ export default class CourseCategory extends Component {
               <h3>Choice favorite course from top category</h3>
             </div>
             <div className="col-lg-3">
+<<<<<<< HEAD
               <div className="d-flex justify-content-end">
                 <button className="btn button-primary">
                   See All Categories
                 </button>
               </div>
+=======
+              <button className="btn button-primary">See All Categories</button>
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
             </div>
           </div>
 

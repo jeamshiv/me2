@@ -5,6 +5,7 @@ export default class ChoiceCourse extends Component {
   renderCourseCard = (img, stars, views, lesions, title, description) => {
     return (
       <>
+<<<<<<< HEAD
         <div class="card">
           <img
             class="card-img-top p-3"
@@ -25,6 +26,28 @@ export default class ChoiceCourse extends Component {
             </div>
             <h5 className="mt-3">{title}</h5>
             <p class="card-text">{description}</p>
+=======
+        <div className="card">
+          <img
+            className="card-img-top p-3"
+            src="https://images.pexels.com/photos/5965839/pexels-photo-5965839.jpeg?cs=srgb&dl=pexels-charlotte-may-5965839.jpg&fm=jpg"
+            alt="Card cap"
+          />
+          <div className="card-body">
+            <div className="d-flex justify-content-between mx-2">
+              <div>
+                <i className="far fa-star"></i> {stars}
+              </div>
+              <div>
+                <i className="far fa-eye"></i> {views}
+              </div>
+              <div>
+                <i className="far fa-play-circle"></i> {lesions} Lesions
+              </div>
+            </div>
+            <h5 className="mt-3">{title}</h5>
+            <p className="card-text">{description}</p>
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
           </div>
         </div>
       </>
@@ -35,7 +58,11 @@ export default class ChoiceCourse extends Component {
     var slick4course = {
       dots: true,
       infinite: true,
+<<<<<<< HEAD
       arrows: true,
+=======
+      arrows: false,
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -47,8 +74,11 @@ export default class ChoiceCourse extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
+<<<<<<< HEAD
             infinite: true,
             dots: true,
+=======
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
           },
         },
         {
@@ -56,7 +86,10 @@ export default class ChoiceCourse extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+<<<<<<< HEAD
             initialSlide: 1,
+=======
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
           },
         },
       ],

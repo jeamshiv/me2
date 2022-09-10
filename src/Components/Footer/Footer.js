@@ -54,10 +54,17 @@ export default class Footer extends Component {
                 rights reserved.
               </div>
               <div className="col-lg-3 col-md-4 offset-lg-3 text-center txt-777578">
+<<<<<<< HEAD
                 <i class="fab fa-facebook-f mx-3"></i>
                 <i class="fab fa-twitter mx-3"></i>
                 <i class="fab fa-google mx-3"></i>
                 <i class="fab fa-linkedin-in mx-3"></i>
+=======
+                <i className="fab fa-facebook-f mx-3"></i>
+                <i className="fab fa-twitter mx-3"></i>
+                <i className="fab fa-google mx-3"></i>
+                <i className="fab fa-linkedin-in mx-3"></i>
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
               </div>
             </div>
           </div>

@@ -60,7 +60,11 @@ export default class About extends Component {
                   <img
                     src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3769021.jpg&fm=jpg"
                     className="img-fluid rounded"
+<<<<<<< HEAD
                     alt=""
+=======
+                    alt="user"
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
                   />
                 </div>
               </div>
@@ -94,7 +98,11 @@ export default class About extends Component {
                 <img
                   src="/assets/about-banner.png"
                   className="img-fluid"
+<<<<<<< HEAD
                   alt=""
+=======
+                  alt="banner"
+>>>>>>> da6e62ef44f49a259f70fa7c67709dc1707eb96d
                 />
               </div>
             </div>

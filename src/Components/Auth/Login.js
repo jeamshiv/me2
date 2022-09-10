@@ -70,7 +70,7 @@ export default class Login extends Component {
                   <img
                     src="/assets/login-banner.png"
                     className="img-fluid"
-                    alt="login image"
+                    alt="login banner"
                   />
                 </div>
                 <h1 className="text-center">Behind a Student's Sucess Story</h1>
