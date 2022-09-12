@@ -3,7 +3,6 @@ import ChoiceCourse from "../ChoiceCourse/ChoiceCourse";
 import CourseCategory from "../CourseCategory/CourseCategory";
 import ContactForm from "../ContactForm/ContactForm";
 import Slider from "react-slick";
-import { Button } from "@material-ui/core";
 
 export default function Home() {
   const sliderRef = useRef();
